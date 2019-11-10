@@ -1,0 +1,29 @@
+body {
+    height: 100%;
+    background-color:#f2f9ff;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+.header {
+    margin: 0;
+}
+
+.title{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ } 
+
+.buttons{
+    opacity: 0;
+    animation-name: fadeIn;
+    animation-delay: .5s;
+    animation-duration:1.5s;
+    opacity: 1;
+}
